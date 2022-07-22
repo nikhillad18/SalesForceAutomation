@@ -38,7 +38,7 @@ public class CreateRecordInAccountObjectTest {
 	public void testRecordCreationInAccountObject() {
 		try {
 			Boolean correctApplicationLoaded=homePage.verifySalesCloudApplicationLoadedSuccessfully("Service");
-			String accountName="ThomsonReuters";
+			String accountName="Oracle";
 			String Type="Prospect";
 			String industryValue="Agriculture";
 			homePage.clickOnAccountsTab();
